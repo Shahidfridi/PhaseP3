@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd ">
+	<bean  id="a1" class="com.mphasis.springcoremodel.Author">
+	<constructor-arg name="aid" value="1"></constructor-arg>
+	<constructor-arg name="aname" value="raham"></constructor-arg>
+	<constructor-arg name="email" value="raham556@gmail.com"></constructor-arg>
+	<constructor-arg name="genre" value="IT"></constructor-arg>
+	</bean>
+	<bean  id="a2" class="com.mphasis.springcoremodel.Author">
+	<constructor-arg name="aid" value="2"></constructor-arg>
+	<constructor-arg name="aname" value="deepu"></constructor-arg>
+	<constructor-arg name="email" value="deepu556@gmail.com"></constructor-arg>
+	<constructor-arg name="genre" value="IT"></constructor-arg>
+	
+	 </bean>
+	<!-- <bean id="p3" class="com.mphasis.springcoremodel.Author">
+	<property name="pid" value="1"></property>
+	<property name="pname" value="ravi"></property>
+	<property name="bloodgroup" value="A+ve"></property>
+	</bean>  
+	<bean class="com.mphasis.springcoremodel.Author">
+	<property name="did" value="1011"></property>
+	<property name="dname" value="ravi"></property>
+	<property name="email" value="ravi12@gmail.com"></property>
+	<property name="patient" ref="a2"></property>
+	
+	</bean>-->
+	
+</beans>
